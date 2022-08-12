@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-CiraConnect" class="navigator-link">
+              <span class="suite-name border-failed">CiraConnect</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-CiraConnect" class="navigator-link ">
+                    <span>C:\Users\admin\git\AzureDevOps\CiraConnect\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-CiraConnect" class="navigator-link ">
+                    <span class="test-stats">4 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-CiraConnect" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-CiraConnect" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-CiraConnect" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-CiraConnect" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-CiraConnect" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">4 methods, 2 failed,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-CiraConnect" class="hide-methods failed suite-CiraConnect"> (hide)</a> <!-- hide-methods failed suite-CiraConnect -->
+                      <a href="#" panel-name="suite-CiraConnect" class="show-methods failed suite-CiraConnect"> (show)</a> <!-- show-methods failed suite-CiraConnect -->
+                    </span>
+                    <div class="method-list-content failed suite-CiraConnect">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CiraConnect" title="ciraLogin.Login" class="method navigator-link" hash-for-method="InValidInputLoginTest">InValidInputLoginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CiraConnect" title="ciraLogin.Login" class="method navigator-link" hash-for-method="ShowPasswordFunctionality">ShowPasswordFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-CiraConnect -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-CiraConnect" class="hide-methods passed suite-CiraConnect"> (hide)</a> <!-- hide-methods passed suite-CiraConnect -->
+                      <a href="#" panel-name="suite-CiraConnect" class="show-methods passed suite-CiraConnect"> (show)</a> <!-- show-methods passed suite-CiraConnect -->
+                    </span>
+                    <div class="method-list-content passed suite-CiraConnect">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CiraConnect" title="ciraLogin.Login" class="method navigator-link" hash-for-method="LoginWithEmptyField">LoginWithEmptyField</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CiraConnect" title="ciraLogin.Login" class="method navigator-link" hash-for-method="ValidInputLoginTest">ValidInputLoginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-CiraConnect -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-CiraConnect" class="panel CiraConnect">
+          <div class="suite-CiraConnect-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">ciraLogin.Login</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="InValidInputLoginTest">
+                  </a> <!-- InValidInputLoginTest -->
+                  <span class="method-name">InValidInputLoginTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [https://sandbox.ciranet.com/v2/managementportal/user/login] but found [https://sandbox.ciranet.com/v2/managementportal/home]
+	at ciraLogin.Login.InValidInputLoginTest(Login.java:85)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ShowPasswordFunctionality">
+                  </a> <!-- ShowPasswordFunctionality -->
+                  <span class="method-name">ShowPasswordFunctionality</span>
+                  <div class="stack-trace">org.openqa.selenium.InvalidElementStateException: invalid element state
+  (Session info: chrome=104.0.5112.81)
+Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;
+System info: host: &apos;DESKTOP-CJFGN1F&apos;, ip: &apos;192.168.1.88&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f8a897a080bf7142870878efbb6a23e3, clearElement {id=f7d349fc-46e0-45e2-ab21-405e1712b447}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53446}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53446/devtoo..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (f8a897a080bf7142870878efbb6a23e3)] -&gt; xpath: //body/app-root[1]/dx-box[1]/div[1]/dxi-item[1]/div[1]/app-common-user-authentication-layout[1]/div[1]/div[1]/div[1]/div[1]/app-login[1]/dx-validation-group[1]/dx-responsive-box[1]/div[1]/div[1]/div[1]/div[2]/dxi-item[1]/div[1]/div[1]/dx-text-box[1]/div[1]/div[2]/div[1]/div[1]/i[1]]
+Session ID: f8a897a080bf7142870878efbb6a23e3
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:132)
+	at ciraLogin.Login.ShowPasswordFunctionality(Login.java:96)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CiraConnect-class-failed -->
+          <div class="suite-CiraConnect-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ciraLogin.Login</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginWithEmptyField">
+                  </a> <!-- LoginWithEmptyField -->
+                  <span class="method-name">LoginWithEmptyField</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidInputLoginTest">
+                  </a> <!-- ValidInputLoginTest -->
+                  <span class="method-name">ValidInputLoginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CiraConnect-class-passed -->
+        </div> <!-- panel CiraConnect -->
+        <div panel-name="test-xml-CiraConnect" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\admin\git\AzureDevOps\CiraConnect\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;CiraConnect&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;Login Test with Valid Inputs&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;ciraLogin.Login&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;ValidInputLoginTest&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- ciraLogin.Login --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login Test with Valid Inputs --&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;Login Test with InValid Inputs&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;ciraLogin.Login&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;InValidInputLoginTest&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- ciraLogin.Login --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login Test with InValid Inputs --&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;Show Password Functionality&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;ciraLogin.Login&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;ShowPasswordFunctionality&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- ciraLogin.Login --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Show Password Functionality --&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;Verify Login with Blank Input Fields&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;ciraLogin.Login&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;LoginWithEmptyField&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- ciraLogin.Login --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Verify Login with Blank Input Fields --&gt;
+&lt;/suite&gt; &lt;!-- CiraConnect --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-CiraConnect" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for CiraConnect</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Login Test with Valid Inputs (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Login Test with InValid Inputs (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Show Password Functionality (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Verify Login with Blank Input Fields (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-CiraConnect" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for CiraConnect</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-CiraConnect" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for CiraConnect</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_CiraConnect');
+function tableData_CiraConnect() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(4);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'ValidInputLoginTest')
+data.setCell(0, 2, 'ciraLogin.Login')
+data.setCell(0, 3, 8431);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'LoginWithEmptyField')
+data.setCell(1, 2, 'ciraLogin.Login')
+data.setCell(1, 3, 5976);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'InValidInputLoginTest')
+data.setCell(2, 2, 'ciraLogin.Login')
+data.setCell(2, 3, 5813);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'ShowPasswordFunctionality')
+data.setCell(3, 2, 'ciraLogin.Login')
+data.setCell(3, 3, 332);
+window.suiteTableData['CiraConnect']= { tableData: data, tableDiv: 'times-div-CiraConnect'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 20 seconds</span>
+              <div id="times-div-CiraConnect">
+              </div> <!-- times-div-CiraConnect -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-CiraConnect" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for CiraConnect</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-CiraConnect" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">12 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">ciraLogin.Login</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">LoginWithEmptyField</span>
+                <br/>
+                <span class="ignored-method-name">LoginWithEmptyField</span>
+                <br/>
+                <span class="ignored-method-name">LoginWithEmptyField</span>
+                <br/>
+                <span class="ignored-method-name">ShowPasswordFunctionality</span>
+                <br/>
+                <span class="ignored-method-name">ValidInputLoginTest</span>
+                <br/>
+                <span class="ignored-method-name">ShowPasswordFunctionality</span>
+                <br/>
+                <span class="ignored-method-name">ValidInputLoginTest</span>
+                <br/>
+                <span class="ignored-method-name">ValidInputLoginTest</span>
+                <br/>
+                <span class="ignored-method-name">ShowPasswordFunctionality</span>
+                <br/>
+                <span class="ignored-method-name">InValidInputLoginTest</span>
+                <br/>
+                <span class="ignored-method-name">InValidInputLoginTest</span>
+                <br/>
+                <span class="ignored-method-name">InValidInputLoginTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-CiraConnect" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">ciraLogin.Login</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">ValidInputLoginTest</span>
+                <span class="method-start">42238 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">50679 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">52710 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">InValidInputLoginTest</span>
+                <span class="method-start">84756 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">90573 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">92072 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ShowPasswordFunctionality</span>
+                <span class="method-start">143515 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">143873 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">145588 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">LoginWithEmptyField</span>
+                <span class="method-start">188712 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">194689 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
