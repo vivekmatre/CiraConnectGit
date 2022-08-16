@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-16T14:34:16 IST" name="CiraConnect" finished-at="2022-08-16T14:35:24 IST" duration-ms="67755">
+    <groups>
+    </groups>
+    <test started-at="2022-08-16T14:34:16 IST" name="Login Test with InValid Inputs" finished-at="2022-08-16T14:35:24 IST" duration-ms="67755">
+      <class name="ciraLogin.Login">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:ciraLogin.Login@71809907]" started-at="2022-08-16T14:34:16 IST" name="setUp" finished-at="2022-08-16T14:35:15 IST" duration-ms="58127" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="InValidInputLoginTest()[pri:2, instance:ciraLogin.Login@71809907]" started-at="2022-08-16T14:35:15 IST" name="InValidInputLoginTest" finished-at="2022-08-16T14:35:21 IST" duration-ms="6019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InValidInputLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ciraLogin.Login@71809907]" started-at="2022-08-16T14:35:21 IST" name="tearDown" finished-at="2022-08-16T14:35:24 IST" duration-ms="3531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ciraLogin.Login -->
+    </test> <!-- Login Test with InValid Inputs -->
+  </suite> <!-- CiraConnect -->
+</testng-results>
